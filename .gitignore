@@ -3,3 +3,8 @@ x64/
 Debug/
 Release/
 *.exe
+*.user
+
+data.txt
+data_backup.txt
+PersonalFinanceTracker

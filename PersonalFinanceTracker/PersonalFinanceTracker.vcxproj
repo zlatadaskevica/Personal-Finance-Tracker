@@ -139,7 +139,15 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fileio.c" />
+    <ClCompile Include="logic.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="models.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fileio.h" />
+    <ClInclude Include="logic.h" />
+    <ClInclude Include="models.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
