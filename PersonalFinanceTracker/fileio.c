@@ -50,6 +50,8 @@ void loadData(Transaction** transactions, int* transactionCount, int* capacity, 
 		temp = realloc(*transactions, newCapacity * sizeof(Transaction));
 		if (temp == NULL) {
 			printf("Memory allocation failed.\n");
+			*transactionCount = 0;
+			*spendingLimit = 0.0;
 			fclose(file);
 			return;
 		}
